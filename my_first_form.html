@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First HTML Form</title>
+    </head>
+    <body>
+        <header>User Login</header>
+        <form method="POST" action="http://request-inspector.glitch.me/">
+            <div>
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="Enter Your Username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Enter Your Password">
+            </div>
+            <div>
+                <button type="submit" name="submit" method="POST" value="Login"></button>
+            </div>
+        </form>
+        <header>Compose an Email</header>
+        <form>
+            <div>
+                <label for="send-to">To:</label>
+                <input id="send-to" name="send-to" type="text" placeholder="To">
+            </div>
+            <div>
+                <label for="from">From:</label>
+                <input id="from" name="from" type="text" placeholder="From">
+            </div>
+            <div>
+                <textarea id="email_body" name="email_body" rows="6" cols="30">Content Here</textarea>
+            </div>
+            <div>
+                <input type="submit" name="send" method="POST" value="Send Email">
+            </div>
+            <div>
+                <input type="checkbox" id="question" name="question" value="yes" checked> 
+                <label for="question">Would you like to save a copy?</label>
+            </div>
+        </form>
+        <header>Multiple Choice Test</header>
+        <form>
+            <div>
+                <p>Harry Potter, or Lord of the Rings?</p>
+                <input type="radio" id="hp" name="q1"
+                <label for="hp">Harry Potter</label>
+                <input type="radio" id="lotr" name="q1">
+                <label for="lotr">Lord of the Rings</label>
+            </div>
+            <div>
+                <p>Indie music or EDM?</p>
+                <input type="radio" id="indie" name="q2">
+                <label for="indie">Indie Music</label>
+                <input type="radio" id="edm" name="q2">
+                <label for="edm">EDM</label>
+            </div>
+            <div>
+                <input type="submit" name="send" method="POST" value="multchoicetest">
+            </div>
+        </form>
+        <header>Select Testing</header>
+        <form>
+            <div>
+            <label for="multi1">Do you like to travel?</label>
+            <select id="multi1" name="travel">
+                <option value="1" checked>Yes</option>
+                <option value="0">No</option>
+            </select> 
+            </div>
+            <div>
+                <input type="submit" name="send" method="POST" value="multi selection">
+            </div>
+        </form>
+    </body>
+</html>

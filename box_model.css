@@ -1,0 +1,71 @@
+#red {
+    border: 1px;
+    width: 150px;
+    height: 72px;
+    max-width: 172px;
+    max-height: 72px;
+    background-color: red;
+}
+
+#orange {
+    border: 1px;
+    width: 150px;
+    height: 72px;
+    max-width: 172px;
+    max-height: 72px;
+    background-color: orange;
+    margin: 10px 30px;
+}
+
+#yellow {
+    border: 1px;
+    width: 150px;
+    height: 72px;
+    max-width: 172px;
+    max-height: 72px;
+    background-color: yellow;
+    margin: 10px 60px;
+}
+
+#green {
+    border: 1px;
+    width: 150px;
+    height: 72px;
+    max-width: 172px;
+    max-height: 72px;
+    background-color: green;
+    margin: 10px 90px;
+}
+
+#blue {
+    border: 1px;
+    width: 150px;
+    height: 72px;
+    max-width: 172px;
+    max-height: 72px;
+    background-color: blue;
+    margin: 10px 120px;
+}
+
+#purple {
+    border: 1px;
+    width: 150px;
+    height: 72px;
+    max-width: 172px;
+    max-height: 72px;
+    background-color: violet;
+    margin: 10px 150px;
+}
+
+.wave {
+    font-weight: bold;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: green;
+}

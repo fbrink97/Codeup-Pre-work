@@ -1,0 +1,77 @@
+#red {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    max-width: 72px;
+    max-height: 72px;
+    background-color: red;
+    float: left;
+}
+
+#orange {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    max-width: 72px;
+    max-height: 72px;
+    background-color: orange;
+    margin: 0px 50px;
+    float: none;
+}
+
+#yellow {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    max-width: 72px;
+    max-height: 72px;
+    background-color: yellow;
+    margin: 0px 100px;
+    float: right;
+}
+
+#green {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    max-width: 72px;
+    max-height: 72px;
+    background-color: green;
+    margin: 50px 0px;
+    clear: left;
+}
+
+#blue {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    max-width: 72px;
+    max-height: 72px;
+    background-color: blue;
+    margin: 50px 50px;
+    clear: none;
+}
+
+#purple {
+    border: 1px;
+    width: 50px;
+    height: 50px;
+    max-width: 72px;
+    max-height: 72px;
+    background-color: violet;
+    margin: 10px 150px;
+    clear: right;
+}
+
+.wave {
+    font-weight: bold;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: green;
+}
